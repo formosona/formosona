@@ -5,7 +5,7 @@
     return 'assets/bg-' + index + '.png';
   });
 
-  var $flower = d3
+  var flower = d3
     .select('.header__bg')
     .selectAll('.flower')
     .data(data)
@@ -13,7 +13,7 @@
     .append('div')
     .attr('class', 'flower');
 
-  $flower
+  flower
     .append('img')
     .attr('src', function(d) {
       return d;
@@ -30,4 +30,15 @@
       return Math.round(Math.random() * 5000);
     })
     .style('opacity', 0.5);
+
+
+	lightbox.option({
+		// disableScrolling: true,
+		fadeDuration: 250,
+		imageFadeDuration: 150,
+		maxWidth: 720,
+		maxHeight: 720,
+		resizeDuration: 150,
+		wrapAround: true
+	})
 })();

@@ -34,10 +34,11 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Dosis:200' rel="stylesheet">
 	<link href='reset.css' rel='stylesheet'>
-	<link href='style.css?version=20181126' rel='stylesheet'>
+	<link href='style.css?version=20190928' rel='stylesheet'>
+	<link href='lightbox.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body id='page-home'>
 	<header>
 		<div class='header__bg'></div>
 		<div class='header__info'>
@@ -45,132 +46,96 @@
 			<p class='header__dek'>Floral Design &amp; Gardening</p>
 		</div>
 	</header>
-	<nav>
+	<!-- <nav>
 		<fieldset>
-			<a href='#work'>work</a>
+			<a href='#portfolio'>portfolio</a>
 			<a href='#about'>about</a>
 			<a href='#contact'>contact</a>
 		</fieldset>
-	</nav>
+	</nav> -->
 	<main id='content'>
-		<section id='work'>
-			<div class='masonry'>
-				<div class='col'>
-					<figure><img src='assets/maddie-bridal@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-bout@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-square@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-tulips@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
+		<section id='portfolio'>
+			<h2>Portfolio</h2>
+			<ul>
+				<li>
+					<a href='assets/weddings/maddie-bridal@2x.jpg' data-lightbox='weddings'
+						data-title='photo by mountainairegatherings.com'>
+						<div class='portfolio__bg bg--weddings'></div>
+						<h3>Weddings</h3>
+					</a>
+				</li>
+				<li>
+					<a href='assets/miscellaneous/misc-mint@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+					<div class='portfolio__bg bg--miscellaneous'></div>
+					<h3>Miscellaneous</h3>
+					</a>
+				</li>
+				<li>
+					<a href='assets/events/misc-magnolia@2x.jpg' data-lightbox='events' data-title=''></a>
+					<div class='portfolio__bg bg--events'></div>
+					<h3>Events</h3>
+					</a>
+				</li>
+			</ul>
+			<div class='gallery'>
+				<a href='assets/weddings/maddie-chris@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-arbor-2@2x.jpg' data-lightbox='weddings'
+					data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-round@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-square@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-table@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-tulips@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/maddie-angle@2x.jpg' data-lightbox='weddings' data-title='photo by ebbesweet.com'></a>
+				<a href='assets/weddings/carrie-boquet@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/carrie-boquet2@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/carrie-center@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/carrie-close@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/carrie-table@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/carrie-white@2x.jpg' data-lightbox='weddings'
+					data-title='photo by mountainairegatherings.com'></a>
+				<a href='assets/weddings/elaina-brides@2x.jpg' data-lightbox='weddings'
+					data-title='photo by alexandraroberts.com'></a>
+				<a href='assets/weddings/elaina-crown@2x.jpg' data-lightbox='weddings'
+					data-title='photo by alexandraroberts.com'></a>
+				<a href='assets/weddings/elaina-portrait@2x.jpg' data-lightbox='weddings'
+					data-title='photo by alexandraroberts.com'></a>
+				<a href='assets/weddings/elaina-table@2x.jpg' data-lightbox='weddings'
+					data-title='photo by alexandraroberts.com'></a>
+
+				<a href='assets/miscellaneous/misc-saipua@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+				<a href='assets/miscellaneous/misc-death@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+				<a href='assets/miscellaneous/misc-green@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+				<a href='assets/miscellaneous/misc-lacey@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+				<a href='assets/miscellaneous/misc-orange@2x.jpg' data-lightbox='miscellaneous' data-title=''></a>
+
+				<a href='assets/events/periwinkle@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/bug-1@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/bug-2@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/bug-3@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/bug-4@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/bug-5@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/lorenz-1@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/lorenz-2@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/lorenz-3@2x.jpg' data-lightbox='events' data-title=''></a>
+				<a href='assets/events/misc-board@2x.jpg' data-lightbox='events' data-title=''></a>
 
 
-					<figure><img src='assets/elaina-brides@2x.jpg'>
-						<figcaption>alexandraroberts.com</figcaption>
-					</figure>
-					<figure><img src='assets/elaina-crown@2x.jpg'>
-						<figcaption>alexandraroberts.com</figcaption>
-					</figure>
-					<figure><img src='assets/elaina-table@2x.jpg'>
-						<figcaption>alexandraroberts.com</figcaption>
-					</figure>
-
-
-					<figure><img src='assets/carrie-white@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-					<figure><img src='assets/carrie-center@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-					<figure><img src='assets/carrie-table@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-
-
-
-
-					<figure><img src='assets/misc-orange@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-					<figure><img src='assets/misc-mint@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-
-					<figure><img src='assets/misc-death@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-
-					<figure><img src='assets/misc-saipua@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-					<figure><img src='assets/misc-field@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-				</div>
-				<div class='col'>
-					<figure><img src='assets/maddie-arbor-2@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-chris@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-table@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-round@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-					<figure><img src='assets/maddie-angle@2x.jpg'>
-						<figcaption>ebbesweet.com</figcaption>
-					</figure>
-
-					<figure><img src='assets/elaina-portrait@2x.jpg'>
-						<figcaption>alexandraroberts.com</figcaption>
-					</figure>
-
-					<figure><img src='assets/carrie-boquet@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-					<figure><img src='assets/carrie-close@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-					<figure><img src='assets/carrie-boquet2@2x.jpg'>
-						<figcaption>mountainairegatherings.com</figcaption>
-					</figure>
-
-					<figure><img src='assets/misc-board@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-					<figure><img src='assets/misc-green@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-
-					<figure><img src='assets/misc-magnolia@2x.jpg'>
-						<figcaption></figcaption>
-					</figure>
-				</div>
 
 			</div>
 		</section>
 		<section id='about'>
-			<img src='assets/maddie-arbor@2x.jpg'>
+			<h2>About</h2>
+			<img src='assets/weddings/maddie-arbor@2x.jpg'>
 			<div class='prose'>
-				<p>I’m Katarina, a floral designer and gardener based in the Berkshires in western Massachusetts.
-					For
-					the past few years, I’ve been growing cut flowers and creating arrangements for weddings &amp; events
-					throughout
-					the
-					New England area. I currently work at The Berkshire Botanical Garden in Stockbridge, Ma.</p>
+				<p>I’m Katarina, a floral designer and gardener based in the Berkshires in western Massachusetts. For the past
+					few years, I’ve been gardening and creating arrangements for weddings &amp; events throughout the New England
+					area. I currently work at The Berkshire Botanical Garden in Stockbridge, MA. Previously, I grew cut flowers at
+					Tiny Hearts in Copake, NY, and Allandale in Boston, MA.</p>
 				<p>For freelance and wedding inquiries, please get in touch with me at formosanafloral@gmail.com.</p>
 			</div>
 		</section>
@@ -181,6 +146,7 @@
 	</footer>
 </body>
 <script src='d3@5.7.0.min.js'></script>
-<script src='script.js?version=20181126'></script>
+<script src='lightbox-plus-jquery.min.js'></script>
+<script src='script.js?version=20190928'></script>
 
 </html>
