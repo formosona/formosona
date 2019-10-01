@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   background: #fff;
-  color: #3a3a3a;
   color: #8c7000;
   font-size: 18px;
   line-height: 1.5;
@@ -33,20 +32,9 @@ section {
 
 header {
   position: relative;
-	height: 90vh;
+	height: 75vh;
 	font-family: 'Julius Sans One';
 	font-weight: 400;
-}
-
-nav {
-  text-align: center;
-}
-
-nav a {
-  border-bottom: 1px solid currentColor;
-  font-size: 0.8em;
-  margin: 0 0.25em;
-  padding: 0 0.05em;
 }
 
 h2 {
@@ -54,10 +42,6 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Julius Sans One';
-	/* background: #8c7000;
-	display: inline-block;
-	color: #fff;
-	border-radius: 6px; */
 }
 
 header:after {
@@ -111,27 +95,28 @@ header:after {
 }
 
 .header__hed {
-  font-size: 4rem;
+  font-size: 47px;
 	line-height: 1;
-	/* font-family: 'Cinzel Decorative'; */
-  /* font-family: 'Amatic SC', cursive; */
 }
 
 .header__dek {
-  padding-left: 0.2em;
+  padding-left: 3px;
 	letter-spacing: 0.05em;
-	/* font-family: 'Cinzel Decorative'; */
-  /* font-family: 'Amatic SC', cursive; */
 }
 
 .header__info {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 50%;
+	width: 100%;
+	max-width: 20.25rem;
   padding: 1rem;
   text-shadow: 0 0 5px #fff;
   background-color: rgba(255, 255, 255, 1);
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 #portfolio ul {
@@ -211,7 +196,15 @@ footer {
 
   .header__info {
     left: 12.5%;
+		width: auto;
+		max-width: 100%;
+		transform: translateY(-50%);
   }
+	
+	.header__hed { 
+		font-size: 63px;
+	}
+
   #about .prose p {
     /* -moz-column-count: 2;
     -webkit-column-count: 2;
